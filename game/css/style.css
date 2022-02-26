@@ -1,0 +1,28 @@
+#start {
+    font-size: 22px;
+}
+.x {
+    display: flex;
+}
+.y {
+    width: 60px;
+    height: 60px;
+    border: black 1px solid;
+    background-color: #339933;
+}
+.secondRow {
+    transform: translate(0,50%);
+    background-color: #009900;
+}
+#up, #down {
+    margin-top: 20px;
+    display: flex;
+}
+.up, .down, .left, .right   {
+    border: black 1px solid;
+    padding: 5px;
+}
+#me {
+    background-image: url("images/me.jpg");
+    background-repeat: no-repeat;
+}
